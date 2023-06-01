@@ -1,0 +1,301 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.navbar {
+  background-color: brown;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px;
+  width: 90px;
+  border-radius: 18px;
+  border: none;
+}
+#btn1 {
+  background-color: #04aa6d;
+  margin: 10px;
+}
+
+#btn2 {
+  background-color: #4310dd;
+  margin: 10px;
+}
+
+button a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  height: 30rem;
+}
+
+.section-1 {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  min-width: 340px;
+  padding: 5rem 0;
+}
+
+.tabs {
+  background-color: burlywood;
+  border-radius: 0.5rem;
+  grid-template-rows: auto 1fr;
+  margin: 20px;
+}
+
+.button {
+  margin: 30px;
+  padding: 1.5rem 0;
+  border: none;
+  font-size: 15px;
+  background-color: #b6c9f0;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  letter-spacing: 0.25rem;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button:nth-child(1) {
+  border-top-left-radius: 0.5rem;
+}
+
+.button:nth-child(3) {
+  border-top-right-radius: 0.5rem;
+}
+
+.button:hover {
+  background: palevioletred;
+  color: white;
+}
+
+#about {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+.tabs-content {
+  padding: 2rem 1.5rem;
+}
+
+.para {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.services {
+  background-color: #deb887;
+  width: 100%; 
+  padding:40px 0px ;
+  margin: auto; 
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.services .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;    margin: auto;
+}
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+.copy_toclip {
+    width: 396px;
+    height: 530px;
+    padding: 25px;
+    background-color: aqua;
+    border-radius: 10%;
+    box-shadow: 0 0 25px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+h1 {
+  color: darkgreen;
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#textField {
+  width: 100%;
+  height: 230px;
+  margin: 20px 0;
+  padding: 10px;
+  /* background: transparent; */
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  resize: none;
+}
+
+.copy-btn {
+  padding: 10px 15px;
+  color: bisque;
+  background-color: blue;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.copy-btn i {
+  padding-left: 10px;
+}
+
+.copy-btn:active {
+  transform: scale(0.98);
+}
+
+span.copied {
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 26px;
+  color: grey;
+  transform: scale(0);
+  transition: all 0.5s;
+}
+
+span.bounce-effect {
+  animation: bunceIn 0.8s linear;
+}
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.3);
+  }
+
+  20% {
+    transform: scale(0.4);
+  }
+
+  40% {
+    transform: scale(0.5);
+  }
+  60% {
+    transform: scale(0.6);
+  }
+
+  80% {
+    transform: scale(0.7);
+  }
+
+  90% {
+    transform: scale(0.98);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.calc {
+
+  background-color: black;
+  width: 360px;
+  height: 530px;
+  padding: 25px;
+  border-radius: 10%;
+  box-shadow: 0 0 25px;
+  margin-right: 150px;
+}
+
+#input-digit{
+    width: 100%;
+    border: none;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+.btn-calc{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 7px;
+    font-size: 20px;
+}
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #abbaba;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+/* media query.......................................... */
+
+@media (min-width: 992px) {
+  img {
+    margin-bottom: 0;
+  }
+  .section-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
